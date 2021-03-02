@@ -12,6 +12,11 @@ header {
 main {
     text-align: center;
     margin: 50px auto;
+    width: 100%;
+}
+
+.container_box {
+    display: flex;
 }
 
 .container {
@@ -73,6 +78,9 @@ footer {
 }
 
 @media screen and (max-width: 768px){
+    .container_box {
+        display: inline-block;
+    }
     .container {
         width: 90% ;
         margin-bottom:20px ;
