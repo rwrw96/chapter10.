@@ -16,7 +16,8 @@ main {
 }
 
 .container_box {
-    display: flex;
+    display: block;
+    text-align: center;
 }
 
 .container {
@@ -79,7 +80,7 @@ footer {
 
 @media screen and (max-width: 768px){
     .container_box {
-        display: inline-block;
+        display: block;
     }
     .container {
         width: 90% ;
